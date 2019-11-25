@@ -1,11 +1,17 @@
 {
   "name": "@se7ensky/webiny-app-page-builder-page-settings-connections",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git"
   },
+  "keywords": [
+    "webiny",
+    "webiny-plugin",
+    "webiny-app-page-builder",
+    "page-settings"
+  ],
   "description": "SE7ENSKY plugin for Webiny",
   "author": "SE7ENSKY <info@se7ensky.com>",
   "license": "MIT",
