@@ -1,0 +1,49 @@
+{
+  "name": "@se7ensky/webiny-app-page-builder-page-settings-connections",
+  "version": "1.0.5",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git"
+  },
+  "description": "SE7ENSKY plugin for Webiny",
+  "author": "SE7ENSKY <info@se7ensky.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@emotion/styled": "^10.0.17",
+    "@webiny/app": "^2.0.1",
+    "@webiny/app-admin": "^2.1.0",
+    "@webiny/app-page-builder": "^2.0.2",
+    "@webiny/ui": "^2.0.0",
+    "emotion": "10.0.17",
+    "lodash": "^4.17.11",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@svgr/webpack": "^4.3.2",
+    "babel-plugin-emotion": "^9.2.8",
+    "babel-plugin-named-asset-import": "^1.0.0-next.3e165448"
+  },
+  "peerDependencies": {
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.0",
+    "react-apollo": "^3.1.0-beta.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "babel src -d dist --source-maps --copy-files",
+    "flow-copy-source": "flow-copy-source src dist",
+    "postbuild": "yarn flow-copy-source && cp package.json LICENSE README.md dist/",
+    "prepublishOnly": "yarn build"
+  }
+}
