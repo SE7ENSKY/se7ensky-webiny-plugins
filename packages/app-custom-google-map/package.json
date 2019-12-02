@@ -15,6 +15,7 @@
     "map"
   ],
   "description": "Google Map widget for Webiny Page Builder",
+  "homepage": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins/tree/master/packages/app-custom-google-map#readme",
   "author": "SE7ENSKY <info@se7ensky.com>",
   "license": "MIT",
   "dependencies": {
