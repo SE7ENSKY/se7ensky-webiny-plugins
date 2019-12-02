@@ -4,7 +4,8 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git"
+    "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git",
+    "directory": "packages/app-custom-google-map"
   },
   "keywords": [
     "webiny",
@@ -13,21 +14,17 @@
     "google-maps",
     "map"
   ],
-  "description": "SE7ENSKY plugin for Webiny",
+  "description": "Google Map widget for Webiny Page Builder",
+  "homepage": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins/tree/master/packages/app-custom-google-map#readme",
   "author": "SE7ENSKY <info@se7ensky.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.5.5",
     "@emotion/styled": "^10.0.17",
-    "@webiny/app": "^2.0.1",
     "@webiny/app-admin": "^2.1.0",
     "@webiny/app-page-builder": "^2.0.2",
     "@webiny/ui": "^2.0.0",
     "emotion": "10.0.17",
-    "google-map-react": "^1.1.5",
-    "lodash": "^4.17.11",
-    "react-helmet": "^5.2.0",
-    "react-router-dom": "^5.0.0"
+    "google-map-react": "^1.1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
