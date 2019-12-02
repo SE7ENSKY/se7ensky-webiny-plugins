@@ -1,6 +1,6 @@
 # Webiny Google Maps Plugin
 
-Adds a Google Maps widget to Webiny Page Builder.
+Adds a Google Maps element to Webiny Page Builder.
 
 ## Setup
 To activate the plugin you need to install it and import it inside your `Admin` app and inside the `Site` app. To do that, follow the two sections below.
@@ -57,7 +57,7 @@ This enables plugin in your public website. And that was it. Rebuild your projec
 
 ## How to use the plugin
 
-This plugin is available from Webiny Page Builder. Inside the Page Builder editor you'll find Google Map as one of the widgets that you can now add to your pages.
+This plugin is available from Webiny Page Builder. Inside the Page Builder editor you'll find Google Map as one of the elements that you can now add to your pages.
 
 By default the plugin is available under the "Basic" group. If you wish to move the plugin to another group, you can pass on the group id as a parameter when registering the plugin, like so:
 
