@@ -23,7 +23,7 @@ After the import, make sure to include your plugin name inside the `plugins` arr
 ```js
 const plugins = [
     ///...,
-    googleMapsPlugin
+    googleMapsPlugin()
 ];
 ```
 
