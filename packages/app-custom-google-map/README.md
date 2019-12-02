@@ -23,7 +23,7 @@ After the import, make sure to include your plugin name inside the `plugins` arr
 ```js
 const plugins = [
     ///...,
-    googleMapsPlugin()
+    googleMapsPlugin ({}),
 ];
 ```
 
@@ -58,3 +58,12 @@ This enables plugin in your public website. And that was it. Rebuild your projec
 ## How to use the plugin
 
 This plugin is available from Webiny Page Builder. Inside the Page Builder editor you'll find Google Map as one of the widgets that you can now add to your pages.
+
+By default the plugin is available under the "Basic" group. If you wish to move the plugin to another group, you can pass on the group id as a parameter when registering the plugin, like so:
+
+```js
+const plugins = [
+    ///...,
+    googleMapsPlugin ({groupName: 'pb-editor-element-group-custom'}),
+];
+```
