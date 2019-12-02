@@ -34,7 +34,7 @@ const PreviewBox = styled ('div') ({
   },
 });
 
-export default [
+export default groupName => [
   ...render,
   {
     name: 'pb-page-element-custom-google-map',
@@ -42,7 +42,7 @@ export default [
     elementType: 'custom-google-map',
     toolbar: {
       title: 'Google map',
-      group: 'pb-editor-element-group-custom',
+      group: groupName ? groupName : 'pb-editor-element-group-basic',
       preview () {
         return (
           <PreviewBox>
