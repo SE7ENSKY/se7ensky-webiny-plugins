@@ -16,7 +16,7 @@
       ],
       "allowBranch": ["master"],
       "conventionalCommits": true,
-      "changelog-preset": "eslint",
+      "changelogPreset": "eslint",
       "createRelease": "github",
       "commitHooks": false,
       "message": "chore(release): New release :tada: :rocket:",
@@ -24,7 +24,6 @@
     },
     "publish": {
       "conventionalCommits": true,
-      "changelog-preset": "eslint",
       "contents": "dist"
     }
   }
