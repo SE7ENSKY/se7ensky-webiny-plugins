@@ -18,7 +18,7 @@
       "conventionalCommits": true,
       "createRelease": "github",
       "commitHooks": false,
-      "message": "chore(release): New release :tada: :rocket:",
+      "message": "chore(release): New release %v :tada: :rocket:",
       "excludeDependents": true
     },
     "publish": {
