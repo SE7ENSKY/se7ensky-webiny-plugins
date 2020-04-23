@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/compare/@se7ensky/webiny-api-page-builder-page-settings-additional@1.3.4-next.0...@se7ensky/webiny-api-page-builder-page-settings-additional@1.3.4) (2020-04-23)
+
+
+### Bug Fixes
+
+* lerna test7 ([8c8bb24](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/commit/8c8bb246d2f415da108187255529ef2d0e339250))
+
+
+
+
+
 ## [1.3.4-next.0](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/compare/@se7ensky/webiny-api-page-builder-page-settings-additional@1.3.3...@se7ensky/webiny-api-page-builder-page-settings-additional@1.3.4-next.0) (2020-04-23)
 
 
