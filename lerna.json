@@ -24,6 +24,7 @@
     },
     "publish": {
       "conventionalCommits": true,
+      "changelog-preset": "eslint",
       "contents": "dist"
     }
   }
