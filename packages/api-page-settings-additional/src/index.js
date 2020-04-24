@@ -1,7 +1,7 @@
 import { gql } from "apollo-server-lambda";
 import { withFields, string, fields } from "@webiny/commodo";
 
-if (window.DEBUG) console.log("test34");
+if (window.DEBUG) console.log("test35");
 
 export default () => [
   {
