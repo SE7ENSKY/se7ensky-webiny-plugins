@@ -18,7 +18,8 @@
   "description": "SE7ENSKY custom blocks and elements.",
   "license": "MIT",
   "scripts": {
-    "clear-dist": "yarn rimraf packages/*/dist"
+    "clear-dist": "yarn rimraf packages/*/dist",
+    "echo": "GH_TOKEN=${GH_TOKEN}; echo $GH_TOKEN"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -30,6 +31,7 @@
     "babel-plugin-emotion": "^9.2.8",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-named-asset-import": "^1.0.0-next.3e165448",
+    "dotenv": "^8.2.0",
     "flow-copy-source": "^2.0.8",
     "lerna": "^3.20.2",
     "rimraf": "^2.6.2",

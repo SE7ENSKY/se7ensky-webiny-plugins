@@ -94,7 +94,7 @@ function getWriterOpts() {
         commit.subject = commit.subject.replace(
           /SB30P-([0-9]+)/g,
           (_, issue) => {
-            return `[SB30P-${issue}](${JiraURL}${issue})`;
+            return `[SB30P-${issue}](${JiraURL}SB30P-${issue})`;
           }
         );
       }
