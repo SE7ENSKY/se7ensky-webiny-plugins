@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.2](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/compare/v1.5.1...v1.5.2) (2020-04-24)
+
+
+### Bug Fixes
+
+* Test issue ([SB30P-666](https://smartbear.atlassian.net/browse/SB30P-666))([#45](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/issues/45)) ([30afb86](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/commit/30afb865adfdd705f8cec1c76fec753e6e8aba89))
+
+
+
+
+
 ## [1.5.1](https://github.com/SE7ENSKY/se7ensky-webiny-plugins/compare/v1.5.0...v1.5.1) (2020-04-24)
 
 
