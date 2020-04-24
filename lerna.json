@@ -2,7 +2,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": ["packages/*"],
-  "version": "independent",
+  "version": "2",
   "command": {
     "version": {
       "preid": "next",
