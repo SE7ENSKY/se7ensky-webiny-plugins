@@ -1,6 +1,7 @@
 {
   "name": "@se7ensky/webiny-app-page-builder-unpublish-page",
   "main": "index.js",
+  "version": "1.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git"

@@ -1,5 +1,6 @@
 {
   "name": "@se7ensky/webiny-app-page-builder-custom-image-link",
+  "version": "1.4",
   "main": "index.js",
   "repository": {
     "type": "git",
