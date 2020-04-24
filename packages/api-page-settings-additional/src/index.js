@@ -1,7 +1,7 @@
 import { gql } from "apollo-server-lambda";
 import { withFields, string, fields } from "@webiny/commodo";
 
-if (window.DEBUG) console.log("test31");
+if (window.DEBUG) console.log("test32");
 
 export default () => [
   {
@@ -16,17 +16,17 @@ export default () => [
             list: true,
             instanceOf: withFields({
               property: string(),
-              content: string(),
-            })(),
+              content: string()
+            })()
           }),
           date: string(),
           order: string(),
           description: string(),
           image: context.commodo.fields.id(),
-          video: context.commodo.fields.id(),
-        })(),
+          video: context.commodo.fields.id()
+        })()
       });
-    },
+    }
   },
   {
     name: "graphql-schema-page-builder-settings-additional",
@@ -76,9 +76,9 @@ export default () => [
           },
           video: ({ video }) => {
             return video ? { __typename: "File", id: video } : null;
-          },
-        },
-      },
-    },
-  },
+          }
+        }
+      }
+    }
+  }
 ];
