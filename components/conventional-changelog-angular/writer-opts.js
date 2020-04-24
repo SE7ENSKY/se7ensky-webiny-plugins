@@ -89,6 +89,14 @@ function getWriterOpts() {
             }
           );
         }
+
+        const JiraURL = `https://smartbear.atlassian.net/browse/`;
+        commit.subject = commit.subject.replace(
+          /SB30P-([0-9]+)/g,
+          (_, issue) => {
+            return `[SB30P-${issue}](${JiraURL}${issue})`;
+          }
+        );
       }
 
       // remove references that already appear in the subject
