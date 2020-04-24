@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/SE7ENSKY/se7ensky-plugins"
+    "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins/"
   },
   "author": "SE7ENSKY <info@se7ensky.com>",
   "description": "SE7ENSKY custom blocks and elements.",
