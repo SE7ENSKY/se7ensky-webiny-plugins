@@ -1,7 +1,7 @@
 {
     "name": "@se7ensky/conventional-changelog-angular-all",
     "private": true,
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "conventional-changelog angular preset",
     "main": "index.js",
     "scripts": {
