@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@portal/conventional-changelog-frontend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "conventional-changelog portal frontend preset",
   "main": "index.js",
   "repository": {
