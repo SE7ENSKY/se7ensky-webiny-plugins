@@ -32,6 +32,7 @@
     "conventional-changelog-angular-all": "^1.7.0",
     "conventional-changelog-angular-bitbucket": "^1.2.0",
     "conventional-changelog-cli": "^2.0.31",
+    "conventional-changelog-conventionalcommits": "^4.2.3",
     "conventional-changelog-eslint": "^3.0.4",
     "conventional-recommended-bump": "^6.0.5",
     "flow-copy-source": "^2.0.8",
