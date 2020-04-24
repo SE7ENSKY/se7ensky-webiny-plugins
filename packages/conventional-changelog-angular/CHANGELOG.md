@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.3](https://github.com/conventional-changelog/conventional-changelog/compare/@se7ensky/conventional-changelog-angular@5.0.2...@se7ensky/conventional-changelog-angular@5.0.3) (2020-04-24)
+
+
+### Tests
+
+* lerna 35 ([5bc9db4](https://github.com/conventional-changelog/conventional-changelog/commit/5bc9db4))
+
+
+
+
+
 ## 5.0.2 (2020-04-24)
 
 **Note:** Version bump only for package @se7ensky/conventional-changelog-angular
