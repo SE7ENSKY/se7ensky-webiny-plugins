@@ -3,7 +3,7 @@
   "name": "@portal/conventional-changelog-frontend",
   "description": "conventional-changelog portal frontend preset",
   "main": "index.js",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "repository": {
     "type": "git"
   },
