@@ -1,7 +1,7 @@
 {
   "name": "@se7ensky/webiny-app-page-builder-element-groups",
   "main": "index.js",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/SE7ENSKY/se7ensky-webiny-plugins.git"
